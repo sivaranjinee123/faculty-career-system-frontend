@@ -11,6 +11,31 @@ Provides separate, role-aware experiences for two user types from a single login
 
 The sidebar, dashboard stats, and available actions all adapt automatically based on the logged-in user's role.
 
+## Screenshots
+
+### Login
+![Login page](./screenshots/login.png)
+
+### Faculty Dashboard
+Stats overview with on-demand AI eligibility evaluation.
+![Faculty dashboard](./screenshots/dashboard.png)
+
+### Achievements
+Full CRUD with certificate upload, type-based point calculation.
+![Achievements page](./screenshots/achievements.png)
+
+### AI Promotion Evaluation
+LLM-generated eligibility assessment based on achievement data.
+![AI evaluation](./screenshots/ai-evaluation.png)
+
+### Applications
+Submit and track promotion applications through their lifecycle.
+![Applications page](./screenshots/applications.png)
+
+### Admin Review — with Evidence Verification
+Admins can expand any application to view the faculty's actual achievements and uploaded certificates before approving — not just their stated claims.
+![Admin review page](./screenshots/admin-review.png)
+
 ## Tech Stack
 
 - **React** + **Vite**
